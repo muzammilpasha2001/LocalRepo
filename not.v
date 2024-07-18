@@ -13,6 +13,7 @@ initial
 begin 
 $monitor($time, "a=%b,out=%b", a,out);
 $display("this is a test");
+$display("this is a testbench");
 a=1'b1;
 #10 
 a=1'b0;
