@@ -12,6 +12,7 @@ mynot dut(a,out);
 initial
 begin 
 $monitor($time, "a=%b,out=%b", a,out);
+$display("this is a test");
 a=1'b1;
 #10 
 a=1'b0;
